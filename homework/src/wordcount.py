@@ -1,6 +1,6 @@
 import os
 
-from .write_count_words import write_count_words
+from ._internals.write_count_words import write_count_words
 
 
 def read_all_lines():
